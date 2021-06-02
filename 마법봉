@@ -1,0 +1,27 @@
+https://ctf.j0n9hyun.xyz/challenges#%EB%A7%88%EB%B2%95%EB%B4%89
+
+View source
+
+![Hình chụp từ 2021-06-02 17-33-53](https://user-images.githubusercontent.com/39523988/120467014-eb646480-c3c9-11eb-82a5-173408b6f59b.png)
+
+To get the flag, the condition is to get the MD5 hash of 240610708 to equal to ![Hình chụp từ 2021-06-02 17-45-10](https://user-images.githubusercontent.com/39523988/120467373-531aaf80-c3ca-11eb-8927-b425248c298d.png)
+
+![Hình chụp từ 2021-06-02 17-43-08](https://user-images.githubusercontent.com/39523988/120467435-6463bc00-c3ca-11eb-817e-855af0bdddbd.png)
+
+After hashing
+
+![Hình chụp từ 2021-06-02 17-46-22](https://user-images.githubusercontent.com/39523988/120467550-7cd3d680-c3ca-11eb-9741-35eff4c3ebc4.png)
+
+We can exploit this by using type juggling
+
+https://github.com/spaze/hashes/blob/master/sha1.md
+
+This is the payload is used
+
+![Hình chụp từ 2021-06-02 17-48-02](https://user-images.githubusercontent.com/39523988/120467961-e522b800-c3ca-11eb-92dd-22986e57a996.png)
+
+We have retrieved the flag
+
+![Hình chụp từ 2021-06-02 17-50-10](https://user-images.githubusercontent.com/39523988/120468046-02578680-c3cb-11eb-99d8-cef218e812c9.png)
+
+
