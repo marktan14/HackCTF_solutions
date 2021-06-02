@@ -1,0 +1,7 @@
+Simple SQLi 
+
+![login_fix](https://user-images.githubusercontent.com/39523988/120466298-18644780-c3c9-11eb-873d-cbd00d263784.png)
+
+Flag:
+
+![Hình chụp từ 2021-06-02 17-33-53](https://user-images.githubusercontent.com/39523988/120466400-392c9d00-c3c9-11eb-9bb8-24cf0b7272b6.png)
