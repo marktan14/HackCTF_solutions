@@ -1,0 +1,21 @@
+ 
+http://ctf.j0n9hyun.xyz:2032 
+
+There are 3 conditions to get the flag, the input must be numeric, and its value has to be between 5184000 and 7776000.
+
+However, the challenge was not that simple
+
+![Hình chụp từ 2021-06-02 17-56-57](https://user-images.githubusercontent.com/39523988/120468949-f61ff900-c3cb-11eb-8c75-ccd8b12b2619.png)
+
+After typing in the input, we'll have to wait for the exact amount of time typed in. This can be tackled by using a simple trick.
+
+![Hình chụp từ 2021-06-02 17-59-32](https://user-images.githubusercontent.com/39523988/120469275-54e57280-c3cc-11eb-953b-c084927d9096.png)
+
+As in the PHP manual page, 1337e0 is still considered a number, and its value is set to 1337*10^0 = 1337. Using this error, we can guess the flag, 
+
+![Hình chụp từ 2021-06-02 18-03-55](https://user-images.githubusercontent.com/39523988/120469716-ec4ac580-c3cc-11eb-8d7f-1ee013d5f27e.png)
+
+And the flag:
+
+![Hình chụp từ 2021-06-02 18-04-30](https://user-images.githubusercontent.com/39523988/120469773-008ec280-c3cd-11eb-96fd-3de9dddb4eb4.png)
+
